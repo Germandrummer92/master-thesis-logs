@@ -1,0 +1,9 @@
+For language fr:
+Have Classified 5606/7237 correct
+Correctness of 0.774630371700981.
+For language it:
+Have Classified 4881/6063 correct
+Correctness of 0.8050470064324592.
+Overall we have classified 10487/13300 samples correct
+Overall Correctness: 0.7884962406015038
+7214.77 s user 85.34 s system 7338.82 s elapsed 99% CPU usage 1354876 k RAM usage

@@ -1,0 +1,144 @@
+[2017-02-06 01:18:14,596] >> Loading model
+[2017-02-06 01:18:14,863] >> Loading datasets
+Error: [Errno 2] No such file or directory: '/export/data1/data/mmueller/research/LanguageCode/lc32ms/train.split.pfile'
+Traceback (most recent call last):
+  File "/project/ASR_dev2012/DNN/detl/scripts/detl", line 11, in <module>
+    detl.detl.start()
+  File "/project/ASR_dev2012/DNN/detl/detl/detl.py", line 81, in start
+    run_cmdline(sys.argv[1:])
+  File "/project/ASR_dev2012/DNN/detl/detl/tools/__init__.py", line 110, in run_cmdline
+    ret = getattr(sys.modules[module], 'run_cmdline')(args[1:])
+  File "/project/ASR_dev2012/DNN/detl/detl/tools/recontrain.py", line 333, in run_cmdline
+    pargs.datasets = data.datasets(pargs.datasets)
+  File "/project/ASR_dev2012/DNN/detl/detl/tools/data/__init__.py", line 28, in datasets
+    (train_set, valid_set, test_set) = readers.read(file)
+  File "/project/ASR_dev2012/DNN/detl/detl/tools/data/readers.py", line 37, in read
+    return f(file, args)
+  File "/project/ASR_dev2012/DNN/detl-extras/readers/pfile.py", line 366, in read
+    fh = open(file)
+IOError: [Errno 2] No such file or directory: '/export/data1/data/mmueller/research/LanguageCode/lc32ms/train.split.pfile'
+[2017-02-06 01:18:15,332] >> Loading model
+Error: No JSON object could be decoded
+Traceback (most recent call last):
+  File "/project/ASR_dev2012/DNN/detl/scripts/detl", line 11, in <module>
+    detl.detl.start()
+  File "/project/ASR_dev2012/DNN/detl/detl/detl.py", line 81, in start
+    run_cmdline(sys.argv[1:])
+  File "/project/ASR_dev2012/DNN/detl/detl/tools/__init__.py", line 110, in run_cmdline
+    ret = getattr(sys.modules[module], 'run_cmdline')(args[1:])
+  File "/project/ASR_dev2012/DNN/detl/detl/tools/recontrain.py", line 310, in run_cmdline
+    model = models.loads(sys.stdin.read())
+  File "/project/ASR_dev2012/DNN/detl/detl/models/serialize.py", line 130, in loads
+    dict = json.loads(str, object_hook = _as_ndarray)
+  File "/usr/lib/python2.7/json/__init__.py", line 351, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+[2017-02-06 01:18:15,602] >> Loading model
+Error: No JSON object could be decoded
+Traceback (most recent call last):
+  File "/project/ASR_dev2012/DNN/detl/scripts/detl", line 11, in <module>
+    detl.detl.start()
+  File "/project/ASR_dev2012/DNN/detl/detl/detl.py", line 81, in start
+    run_cmdline(sys.argv[1:])
+  File "/project/ASR_dev2012/DNN/detl/detl/tools/__init__.py", line 110, in run_cmdline
+    ret = getattr(sys.modules[module], 'run_cmdline')(args[1:])
+  File "/project/ASR_dev2012/DNN/detl/detl/tools/recontrain.py", line 310, in run_cmdline
+    model = models.loads(sys.stdin.read())
+  File "/project/ASR_dev2012/DNN/detl/detl/models/serialize.py", line 130, in loads
+    dict = json.loads(str, object_hook = _as_ndarray)
+  File "/usr/lib/python2.7/json/__init__.py", line 351, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+[2017-02-06 01:18:15,873] >> Loading model
+Error: No JSON object could be decoded
+Traceback (most recent call last):
+  File "/project/ASR_dev2012/DNN/detl/scripts/detl", line 11, in <module>
+    detl.detl.start()
+  File "/project/ASR_dev2012/DNN/detl/detl/detl.py", line 81, in start
+    run_cmdline(sys.argv[1:])
+  File "/project/ASR_dev2012/DNN/detl/detl/tools/__init__.py", line 110, in run_cmdline
+    ret = getattr(sys.modules[module], 'run_cmdline')(args[1:])
+  File "/project/ASR_dev2012/DNN/detl/detl/tools/recontrain.py", line 310, in run_cmdline
+    model = models.loads(sys.stdin.read())
+  File "/project/ASR_dev2012/DNN/detl/detl/models/serialize.py", line 130, in loads
+    dict = json.loads(str, object_hook = _as_ndarray)
+  File "/usr/lib/python2.7/json/__init__.py", line 351, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+[2017-02-06 01:18:16,145] >> Loading model
+Error: No JSON object could be decoded
+Traceback (most recent call last):
+  File "/project/ASR_dev2012/DNN/detl/scripts/detl", line 11, in <module>
+    detl.detl.start()
+  File "/project/ASR_dev2012/DNN/detl/detl/detl.py", line 81, in start
+    run_cmdline(sys.argv[1:])
+  File "/project/ASR_dev2012/DNN/detl/detl/tools/__init__.py", line 110, in run_cmdline
+    ret = getattr(sys.modules[module], 'run_cmdline')(args[1:])
+  File "/project/ASR_dev2012/DNN/detl/detl/tools/recontrain.py", line 310, in run_cmdline
+    model = models.loads(sys.stdin.read())
+  File "/project/ASR_dev2012/DNN/detl/detl/models/serialize.py", line 130, in loads
+    dict = json.loads(str, object_hook = _as_ndarray)
+  File "/usr/lib/python2.7/json/__init__.py", line 351, in loads
+    return cls(encoding=encoding, **kw).decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 384, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+[2017-02-06 15:05:44,950] >> Loading model
+[2017-02-06 15:05:45,220] >> Loading datasets
+[2017-02-06 15:05:45,234] >> Reconstruction training started with arguments:
+{'activation_noise': None,
+ 'adadelta': False,
+ 'adadelta_epsilon': '1e-6',
+ 'adadelta_rho': '0.95',
+ 'adagrad': False,
+ 'adagrad_decay': False,
+ 'batch_size': 128,
+ 'ce_sparsity': 0.01,
+ 'ce_sparsity_weight': 0.0,
+ 'compound': False,
+ 'corruption_level': 0.2,
+ 'datasets': (DatasetContainer [PFileStreamDataset@/export/data1/data/mmueller/research/LanguageCode/lc32ms/train.pfile],
+              DatasetContainer [],
+              DatasetContainer []),
+ 'epochs': 50,
+ 'fix_layers': [],
+ 'graph': False,
+ 'hooks': [],
+ 'l1_reg': '0.0',
+ 'l2_reg': '0.0',
+ 'layer_args': {},
+ 'layers': [1],
+ 'learning_rate': '0.01',
+ 'loss': u'mse',
+ 'minibatches': 2000000,
+ 'momentum': '',
+ 'noise': 'mask',
+ 'sparsity': 0.05,
+ 'sparsity_weight': 0.0,
+ 'validate': False,
+ 'verbosity': 1,
+ 'warn': False}
+[2017-02-06 15:05:45,235] >> Reconstruction training started with da:
+{'hidden_activation': u'sigmoid',
+ u'loss': u'mse',
+ 'n_hidden': 1000,
+ 'n_visible': 966,
+ 'tied_weights': True,
+ 'visible_activation': u'tanh'}
+[2017-02-06 15:05:45,235] >> Compiling theano graph
+WARNING (theano.sandbox.cuda): CUDA is installed, but device gpu0 is not available  (error: Unable to get the number of gpus available: no CUDA-capable device is detected)
+[2017-02-06 15:08:00,631] >> Training started

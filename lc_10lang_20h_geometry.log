@@ -1,0 +1,138 @@
+[2017-01-19 14:23:22,101] >> Loading model
+[2017-01-19 14:23:23,732] >> Loading datasets
+[2017-01-19 14:23:23,779] >> Reconstruction training started with arguments:
+{'activation_noise': None,
+ 'adadelta': False,
+ 'adadelta_epsilon': '1e-6',
+ 'adadelta_rho': '0.95',
+ 'adagrad': False,
+ 'adagrad_decay': False,
+ 'batch_size': 128,
+ 'ce_sparsity': 0.01,
+ 'ce_sparsity_weight': 0.0,
+ 'compound': False,
+ 'corruption_level': 0.2,
+ 'datasets': (DatasetContainer [PFileStreamDataset@/export/data1/data/ddraper/train.split.pfile],
+              DatasetContainer [],
+              DatasetContainer []),
+ 'epochs': 50,
+ 'fix_layers': [],
+ 'graph': False,
+ 'hooks': [],
+ 'l1_reg': '0.0',
+ 'l2_reg': '0.0',
+ 'layer_args': {},
+ 'layers': [1],
+ 'learning_rate': '0.01',
+ 'loss': u'mse',
+ 'minibatches': 2000000,
+ 'momentum': '',
+ 'noise': 'mask',
+ 'sparsity': 0.05,
+ 'sparsity_weight': 0.0,
+ 'validate': False,
+ 'verbosity': 1,
+ 'warn': False}
+[2017-01-19 14:23:23,780] >> Reconstruction training started with da:
+{'hidden_activation': u'sigmoid',
+ u'loss': u'mse',
+ 'n_hidden': 2000,
+ 'n_visible': 966,
+ 'tied_weights': True,
+ 'visible_activation': u'tanh'}
+[2017-01-19 14:23:23,780] >> Compiling theano graph
+WARNING (theano.sandbox.cuda): CUDA is installed, but device gpu0 is not available  (error: Unable to get the number of gpus available: no CUDA-capable device is detected)
+[2017-01-19 14:24:39,471] >> Training started
+[2017-01-20 18:50:50,647] >> Loading model
+[2017-01-20 18:50:50,948] >> Loading datasets
+[2017-01-20 18:50:50,959] >> Reconstruction training started with arguments:
+{'activation_noise': None,
+ 'adadelta': False,
+ 'adadelta_epsilon': '1e-6',
+ 'adadelta_rho': '0.95',
+ 'adagrad': False,
+ 'adagrad_decay': False,
+ 'batch_size': 128,
+ 'ce_sparsity': 0.01,
+ 'ce_sparsity_weight': 0.0,
+ 'compound': False,
+ 'corruption_level': 0.2,
+ 'datasets': (DatasetContainer [PFileStreamDataset@/export/data1/data/ddraper/train.split.pfile],
+              DatasetContainer [],
+              DatasetContainer []),
+ 'epochs': 50,
+ 'fix_layers': [],
+ 'graph': False,
+ 'hooks': [],
+ 'l1_reg': '0.0',
+ 'l2_reg': '0.0',
+ 'layer_args': {},
+ 'layers': [1],
+ 'learning_rate': '0.01',
+ 'loss': u'mse',
+ 'minibatches': 2000000,
+ 'momentum': '',
+ 'noise': 'mask',
+ 'sparsity': 0.05,
+ 'sparsity_weight': 0.0,
+ 'validate': False,
+ 'verbosity': 1,
+ 'warn': False}
+[2017-01-20 18:50:50,960] >> Reconstruction training started with da:
+{'hidden_activation': u'sigmoid',
+ u'loss': u'mse',
+ 'n_hidden': 1000,
+ 'n_visible': 966,
+ 'tied_weights': True,
+ 'visible_activation': u'tanh'}
+[2017-01-20 18:50:50,960] >> Compiling theano graph
+ERROR (theano.sandbox.cuda): ERROR: Not using GPU. Initialisation of device 1 failed:
+Bad device number 1. Only 1 devices available.
+Using gpu device 0: Tesla M2075 (CNMeM is disabled, cuDNN not available)
+[2017-01-20 18:51:14,493] >> Training started
+[2017-01-22 18:26:00,273] >> Loading model
+[2017-01-22 18:26:01,927] >> Loading datasets
+[2017-01-22 18:26:01,957] >> Reconstruction training started with arguments:
+{'activation_noise': None,
+ 'adadelta': False,
+ 'adadelta_epsilon': '1e-6',
+ 'adadelta_rho': '0.95',
+ 'adagrad': False,
+ 'adagrad_decay': False,
+ 'batch_size': 128,
+ 'ce_sparsity': 0.01,
+ 'ce_sparsity_weight': 0.0,
+ 'compound': False,
+ 'corruption_level': 0.2,
+ 'datasets': (DatasetContainer [PFileStreamDataset@/export/data1/data/ddraper/train.split.pfile],
+              DatasetContainer [],
+              DatasetContainer []),
+ 'epochs': 50,
+ 'fix_layers': [],
+ 'graph': False,
+ 'hooks': [],
+ 'l1_reg': '0.0',
+ 'l2_reg': '0.0',
+ 'layer_args': {},
+ 'layers': [1],
+ 'learning_rate': '0.01',
+ 'loss': u'mse',
+ 'minibatches': 2000000,
+ 'momentum': '',
+ 'noise': 'mask',
+ 'sparsity': 0.05,
+ 'sparsity_weight': 0.0,
+ 'validate': False,
+ 'verbosity': 1,
+ 'warn': False}
+[2017-01-22 18:26:01,957] >> Reconstruction training started with da:
+{'hidden_activation': u'sigmoid',
+ u'loss': u'mse',
+ 'n_hidden': 1200,
+ 'n_visible': 966,
+ 'tied_weights': True,
+ 'visible_activation': u'tanh'}
+[2017-01-22 18:26:01,957] >> Compiling theano graph
+ERROR (theano.sandbox.cuda): ERROR: Not using GPU. Initialisation of device 1 failed:
+Bad device number 1. Only 1 devices available.
+Using gpu device 0: Tesla M2075 (CNMeM is disabled, cuDNN not available)
