@@ -1,0 +1,33 @@
+ADC0 ADC ADCffv POWER SPEECH FFT0 FFT MEL lMEL PITCH dPITCH1 ddPITCH1 dPITCH2 ddPITCH2 dPITCH3 ddPITCH3 P32 FFV TONE mergedFEAT FEAT FEATSPR mlp_l2 mlp_l3 mlp_l4 mlp_l5 mlp_l6 mlp_l7 BNF BNFSPR nn_l2 nn_l3 nn_l4 nn_l5 nn_l6 nn_l7 nnBNF nnFILTER nnFILTER2 nnFILTERREAL 
+DEBUG: BNFSPR {-samplingRate 16.000000} {-shift 10.000000} {-frameN 146} {-coeffN 966} {-dcoeffN 0} {-trans 0} 
+DEBUG 10
+loading NN
+start NN computation
+Should have been: de
+Overall we have classified as: en
+Length of sample: 146
+-------------------------------------------------------------------------------------------------------
+For language ar:
+Have Classified 0/0 correct
+For language de:
+Have Classified 253/328 correct
+Correctness of 0.7713414634146342.
+For language es:
+Have Classified 0/0 correct
+For language fr:
+Have Classified 0/0 correct
+For language it:
+Have Classified 0/0 correct
+For language po:
+Have Classified 0/0 correct
+For language pt:
+Have Classified 0/0 correct
+For language ru:
+Have Classified 0/0 correct
+For language tr:
+Have Classified 0/0 correct
+For language en:
+Have Classified 0/0 correct
+Overall we have classified 253/328 samples correct
+Overall Correctness: 0.7713414634146342
+2053.89 s user 2.73 s system 2063.79 s elapsed 99% CPU usage 274564 k RAM usage

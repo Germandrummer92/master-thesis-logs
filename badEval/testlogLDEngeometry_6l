@@ -1,0 +1,33 @@
+#    | ||_| |_| |_| |_|\_|    Karlsruhe Institute of Technology, Germany
+#   _| | JANUS Recognition        Carnegie Mellon University, USA          
+#  \__/        Toolkit                                                  
+#                              (c) 1993-2014  Interactive Systems Labs   
+# ===========================================================================
+started testLectureFilter.tcl: on i13hpc2.2241, Tue Feb 28 14:34:14 CET 2017
+Janus Binary: /home/mmueller/janus_development/janus.git/src/Linux.x86_64-gcc-ltcl8.5-NX/janus
+using lib: /home/mmueller/janus_development/huy_janus_pitch/tcl-lib /home/mmueller/janus_development/huy_janus_pitch/gui-tcl /home/hnguyen/openmpi-1.6.5/openmpi/lib /home/hnguyen/F4DE-3.0.1/man /home/mmueller/janus_development/huy_janus_pitch/library /usr/share/tcltk/tcl8.5 /usr/share/tcltk /home/mmueller/janus_development/janus.git/src/lib /usr/local/lib/tcltk /usr/local/share/tcltk /usr/lib/tcltk/x86_64-linux-gnu /usr/lib/tcltk /usr/lib
+
+  featureSetLID  desc   @featDesc.lectureData
+  featureSetLID  access @featAccess.lectureData
+For language ar:
+Have Classified 0/0 correct
+For language de:
+Have Classified 0/0 correct
+For language es:
+Have Classified 0/0 correct
+For language fr:
+Have Classified 0/0 correct
+For language it:
+Have Classified 0/0 correct
+For language po:
+Have Classified 0/0 correct
+For language pt:
+Have Classified 0/0 correct
+For language ru:
+Have Classified 0/0 correct
+For language tr:
+Have Classified 0/0 correct
+For language en:
+Have Classified 0/0 correct
+Overall we have classified 0/0 samples correct
+0.02 s user 0.01 s system 0.15 s elapsed 23% CPU usage 5508 k RAM usage
