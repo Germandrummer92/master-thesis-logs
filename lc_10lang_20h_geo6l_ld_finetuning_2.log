@@ -1,0 +1,38 @@
+[2017-03-31 12:04:52,139] >> Loading model
+[2017-03-31 12:04:53,053] >> Loading datasets
+ERROR (theano.sandbox.cuda): ERROR: Not using GPU. Initialisation of device 1 failed:
+Bad device number 1. Only 1 devices available.
+Using gpu device 0: Tesla M2075 (CNMeM is disabled, cuDNN not available)
+[2017-03-31 12:04:56,914] >> Supervised training started with arguments:
+{'activation_noise': None,
+ 'adadelta': False,
+ 'adadelta_epsilon': '1e-6',
+ 'adadelta_rho': '0.95',
+ 'adagrad': False,
+ 'adagrad_decay': False,
+ 'batch_size': 256,
+ 'datasets': (DatasetContainer [PFileStreamDataset@/export/data1/data/ddraper/train.ld.pfile],
+              DatasetContainer [PFileDataset@/export/data1/data/ddraper/valid.ld.pfile,1],
+              DatasetContainer []),
+ 'epochs': 50,
+ 'fix_layers': [],
+ 'graph': False,
+ 'hooks': [<functools.partial object at 0x7f5ee39374c8>],
+ 'l1_reg': '0.0',
+ 'l2_reg': '0.0',
+ 'layer_args': [],
+ 'learning_rate': '0.1',
+ 'minibatches': -1,
+ 'momentum': '',
+ 'newbob': True,
+ 'newbob_decay': 0.5,
+ 'newbob_threshold': [0.005, 0.0001],
+ 'patience': -1,
+ 'patience_improve_threshold': 0.995,
+ 'patience_increase': 1.5,
+ 'pre_validate': False,
+ 'print_errors': True,
+ 'validation_interval': -1,
+ 'verbosity': 0,
+ 'warn': False}
+[2017-03-31 12:04:56,914] >> Compiling theano graph

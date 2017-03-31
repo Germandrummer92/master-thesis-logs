@@ -1,0 +1,30 @@
+For language ar:
+Have Classified 0/0 correct
+For language de:
+Have Classified 14/28 correct
+Correctness of 0.5.
+For language es:
+Have Classified 25/28 correct
+Correctness of 0.8928571428571429.
+For language fr:
+Have Classified 18/28 correct
+Correctness of 0.6428571428571429.
+For language it:
+Have Classified 19/28 correct
+Correctness of 0.6785714285714286.
+For language po:
+Have Classified 0/28 correct
+Correctness of 0.0.
+For language pt:
+Have Classified 21/28 correct
+Correctness of 0.75.
+For language ru:
+Have Classified 0/0 correct
+For language tr:
+Have Classified 0/0 correct
+For language en:
+Have Classified 24/28 correct
+Correctness of 0.8571428571428571.
+Overall we have classified 121/196 samples correct
+Overall Correctness: 0.6173469387755102
+1164.70 s user 1.63 s system 1169.47 s elapsed 99% CPU usage 295232 k RAM usage

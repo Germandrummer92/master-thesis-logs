@@ -1,0 +1,53 @@
+[2017-03-22 13:43:38,620] >> Loading model
+[2017-03-22 13:43:39,253] >> Loading datasets
+ERROR (theano.sandbox.cuda): ERROR: Not using GPU. Initialisation of device 1 failed:
+Bad device number 1. Only 1 devices available.
+Using gpu device 0: Tesla M2075 (CNMeM is disabled, cuDNN not available)
+[2017-03-22 13:43:43,122] >> Supervised training started with arguments:
+{'activation_noise': None,
+ 'adadelta': False,
+ 'adadelta_epsilon': '1e-6',
+ 'adadelta_rho': '0.95',
+ 'adagrad': False,
+ 'adagrad_decay': False,
+ 'batch_size': 256,
+ 'datasets': (DatasetContainer [PFileStreamDataset@/export/data1/data/ddraper/train.ld.pfile],
+              DatasetContainer [PFileDataset@/export/data1/data/ddraper/valid.ld.pfile,1],
+              DatasetContainer []),
+ 'epochs': 50,
+ 'fix_layers': [],
+ 'graph': False,
+ 'hooks': [<functools.partial object at 0x7f9e82763470>],
+ 'l1_reg': '0.0',
+ 'l2_reg': '0.0',
+ 'layer_args': [],
+ 'learning_rate': '0.1',
+ 'minibatches': -1,
+ 'momentum': '',
+ 'newbob': True,
+ 'newbob_decay': 0.5,
+ 'newbob_threshold': [0.005, 0.0001],
+ 'patience': -1,
+ 'patience_improve_threshold': 0.995,
+ 'patience_increase': 1.5,
+ 'pre_validate': False,
+ 'print_errors': True,
+ 'validation_interval': -1,
+ 'verbosity': 0,
+ 'warn': False}
+[2017-03-22 13:43:43,123] >> Compiling theano graph
+[2017-03-22 13:44:15,548] >> Training started
+[2017-03-22 13:57:38,314] >  epoch 1/44062, training error 0.327773
+[2017-03-22 13:57:39,947] >  epoch 1/44062, validation error 0.283976
+[2017-03-22 14:10:31,420] >  epoch 2/88124, training error 0.182396
+[2017-03-22 14:10:33,015] >  epoch 2/88124, validation error 0.180117
+[2017-03-22 14:23:27,501] >  epoch 3/132186, training error 0.137077
+[2017-03-22 14:23:29,017] >  epoch 3/132186, validation error 0.155842
+[2017-03-22 14:37:13,678] >  epoch 4/176248, training error 0.112375
+[2017-03-22 14:37:15,195] >  epoch 4/176248, validation error 0.108624
+[2017-03-22 14:50:50,464] >  epoch 5/220310, training error 0.096428
+[2017-03-22 14:50:51,992] >  epoch 5/220310, validation error 0.104675
+[2017-03-22 14:50:52,263] >  epoch 5/220310, learning rate set to 0.050000
+[2017-03-22 15:04:17,252] >  epoch 6/264372, training error 0.075287
+[2017-03-22 15:04:18,792] >  epoch 6/264372, validation error 0.116071
+[2017-03-22 15:04:18,792] >> Training finished in 1:20:03.243465

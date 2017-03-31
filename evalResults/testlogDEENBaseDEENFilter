@@ -1,0 +1,33 @@
+Overall we have classified as: en
+Length of sample: 36
+-------------------------------------------------------------------------------------------------------
+Got: en, should Have been: en
+      featureSetLID Loading /project/multilingual_nets/languageID/data/Speech.pcm.merged/20130101_20130531_en_agjb.pcm
+readData: total 2529490 bytes, read 1264745 of 1264745 samples, 0 .. 1264744, channel 1 of 1
+      featureSetLID cut ADC ADC0 76.16s 77.03s
+start featDesc
+computing features
+    warp with factor 1.0
+loading MLP
+start MLP computation
+DEBUG: BNF {-samplingRate 16.000000} {-shift 10.000000} {-frameN 84} {-coeffN 42} {-dcoeffN 0} {-trans 0} 
+adjacent BNF+
+ADC0 ADC ADCffv POWER SPEECH FFT0 FFT MEL lMEL PITCH dPITCH1 ddPITCH1 dPITCH2 ddPITCH2 dPITCH3 ddPITCH3 P16 FFV TONE mergedFEAT FEAT FEATSPR mlp_l2 mlp_l3 mlp_l4 mlp_l5 mlp_l6 mlp_l7 BNF BNFSPR nn_l2 nn_l3 nn_l4 nn_l5 nn_l6 nn_l7 nnBNF nnFILTER nnFILTER2 nnFILTERREAL 
+DEBUG: BNFSPR {-samplingRate 16.000000} {-shift 10.000000} {-frameN 84} {-coeffN 966} {-dcoeffN 0} {-trans 0} 
+DEBUG 10
+loading NN
+start NN computation
+set currentOutput to 9
+Overall we have classified as: en
+Length of sample: 84
+-------------------------------------------------------------------------------------------------------
+Got: en, should Have been: en
+For language de:
+Have Classified 4677/5726 correct
+Correctness of 0.8168005588543485.
+For language en:
+Have Classified 4535/5188 correct
+Correctness of 0.8741326137239784.
+Overall we have classified 9212/10914 samples correct
+Overall Correctness: 0.844053509254169
+6936.90 s user 69.23 s system 7039.24 s elapsed 99% CPU usage 1223460 k RAM usage
